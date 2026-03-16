@@ -5,6 +5,7 @@ import { Menu, X } from "lucide-react";
 const navItems = [
   { label: "Home", href: "#home" },
   { label: "Services", href: "#services" },
+  { label: "Pricing", href: "future-flow-studio/pricing" },
   { label: "About", href: "#about" },
   { label: "FAQs", href: "#faqs" },
   { label: "Contact", href: "#contact" },
