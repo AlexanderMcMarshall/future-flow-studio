@@ -17,7 +17,7 @@ const App = () => (
       <BrowserRouter basename="/future-flow-studio">
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/future-flow-studio/pricing" element={<Pricing />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
